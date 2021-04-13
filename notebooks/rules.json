@@ -1,24 +1,33 @@
 {
-"Annoying Gamer Kid": "002", 
 "Ay Si": {
-    "keep_sentence": ["ay si ay si", "uy si uy si", "ay si", "uy si"]
+    "top_split": ["ay si ay si", "uy si uy si", "ay si", "uy si"]
 },
 "Bad Luck Brian": {
-    "single_character": [" se le ", " se lo ", " lo ", " le ", " se "]
+    "down_split": [" se le ", " se lo ", " lo ", " le ", " se "]
 }, 
-"Disaster Girl": "005",
+"Disaster Girl": {
+    "second_down_split": ["decian", "vivian", "vivia", "decia", "habia", 
+    "pero ya no", "ya no"]
+},
 "Filosoraptor": {
-    "single_character": ['¿']
+    "down_split": ["¿"]
 },
 "Futurama Fry": {
-    "single_character": [' o ']   
+    "down_split": [" o "]   
 }, 
-"Matias Prats": "008", 
-"No me digas": "009",
-"Prepare Yourself": "010", 
+"Matias Prats": {
+    "top_split": ["ultimas noticias", "ultima hora"]
+}, 
+"Prepare Yourself": {
+    "top_split": ["preparense", "agarrense"]
+}, 
 "Problems": {
-    "single_character": [' y ']
+    "down_split": [" y "]
 }, 
-"Willy Wonka": "012", 
-"Yao Wonka": "013"
+"Willy Wonka": {
+    "down_split": ["cuentame", "cuentanos", "dinos", "dime"]
+}, 
+"Yao Wonka": {
+    "down_split": ["cuentame", "cuentanos", "dinos", "dime"]
+}
 }
