@@ -1,0 +1,24 @@
+{
+"Annoying Gamer Kid": "002", 
+"Ay Si": {
+    "keep_sentence": ["ay si ay si", "uy si uy si", "ay si", "uy si"]
+},
+"Bad Luck Brian": {
+    "single_character": [" se le ", " se lo ", " lo ", " le ", " se "]
+}, 
+"Disaster Girl": "005",
+"Filosoraptor": {
+    "single_character": ['¿']
+},
+"Futurama Fry": {
+    "single_character": [' o ']   
+}, 
+"Matias Prats": "008", 
+"No me digas": "009",
+"Prepare Yourself": "010", 
+"Problems": {
+    "single_character": [' y ']
+}, 
+"Willy Wonka": "012", 
+"Yao Wonka": "013"
+}
