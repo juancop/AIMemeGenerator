@@ -35,3 +35,5 @@ El proyecto se desarrolló bajo tres frentes. A continuación encontrará un lis
 - [x] Creación del bot.
 - [x] Generador de imágenes.
 - [ ] Conexión con el modelo.
+
+Hola
