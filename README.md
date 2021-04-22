@@ -8,7 +8,7 @@ El presente repositorio tiene como objetivo la construcción de un modelo que pe
   Usamos como fuente la base de datos recopilada por [memegenerator.es](https://www.memegenerator.es/). La base de datos de memegenerator se encuentra organizadas de acuerdo a plantillas por defecto y un número consecutivo que identifica el memes. De acuerdo con estas propiedades, se realizó un proceso de web-scrapping que nos permitió extraer desde la página web el identificador de la plantilla usada así como el texto de los memes. Después de un proceso de limpieza, se obtuvo una base de datos de 762.920 memes, distribuidos en 10 plantillas. 
   
 2. **Modelamiento**
-  El modelo seleccionado en esta etapa inicial es el [GTP2-Small](https://openai.com/blog/better-language-models/) refinado para español con base en wikipedia. El modelo se basa en redes neuronales recurrentes y tiene como objetivo predecir la siguiente palabra dada una cadena de texto previa. 
+  El modelo seleccionado en esta etapa inicial es el [GTP2-Small](https://openai.com/blog/better-language-models/) refinado para español con base en wikipedia. El modelo se basa en Transformers y tiene como objetivo predecir la siguiente palabra condicionado a una cadena de texto previa. 
 
 3. **Bot generador de memes**
   El generador de memes se encuentra en twitter bajo la cuenta [@unal_bot](https://twitter.com/unal_bot). La arquitectura del bot se basa en la integración del API API de Twitter y Tweepy en Python y funciona bajo el siguiente flujo:
@@ -28,12 +28,12 @@ El proyecto se desarrolló bajo tres frentes. A continuación encontrará un lis
 ### 2. Modelo:
 - [x] Investigación de modelos y estado del arte.
 - [x] Preprocesamiento de la base de memes.
-- [ ] Entrenamiento del modelo.
-- [ ] Creación de flujo.
+- [x] Entrenamiento del modelo.
+- [x] Creación de flujo.
 
 ### 3. Producto
 - [x] Creación del bot.
 - [x] Generador de imágenes.
 - [ ] Conexión con el modelo.
 
-Hola
+
