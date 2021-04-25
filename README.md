@@ -11,7 +11,7 @@ El presente repositorio tiene como objetivo la construcción de un modelo que pe
   El modelo seleccionado en esta etapa inicial es el [GTP2-Small](https://openai.com/blog/better-language-models/) refinado para español con base en wikipedia. El modelo se basa en Transformers y tiene como objetivo predecir la siguiente palabra condicionado a una cadena de texto previa. 
 
 3. **Bot generador de memes**
-  El generador de memes se encuentra en twitter bajo la cuenta [@unal_bot](https://twitter.com/unal_bot). La arquitectura del bot se basa en la integración del API API de Twitter y Tweepy en Python y funciona bajo el siguiente flujo:
+  El generador de memes se encuentra en twitter bajo la cuenta [@memencionaste](https://twitter.com/memencionaste). La arquitectura del bot se basa en la integración del API API de Twitter y Tweepy en Python y funciona bajo el siguiente flujo:
   
 ![flujo_unal_bot](/imagenes/flujo_unal_bot.jpg)
 
@@ -34,6 +34,6 @@ El proyecto se desarrolló bajo tres frentes. A continuación encontrará un lis
 ### 3. Producto
 - [x] Creación del bot.
 - [x] Generador de imágenes.
-- [ ] Conexión con el modelo.
+- [x] Conexión con el modelo.
 
 
